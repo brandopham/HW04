@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  input,
+  button {
+   font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    font: 1em/1.5;
+    color: #184f68;
+      background: aqua;
+  }
+  
+  header {
+      text-align: center;  
+  }
+  
+  h1 {
+      font-size: 3em;
+      text-shadow: 0 2px 0 rgba(255, 255, 255, 0.45);
+      margin: 0;
+  }
+  
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+
+  
+  form {
+      padding: 1em 2em 2em;
+      background: darkcyan;
+  }
+  
+  fieldset,
+  legend,
+  button {
+      padding: 0;
+      border: none;
+  }
+  
+  fieldset {
+      margin-top: 2em;
+  }
+  
+  legend,
+  button {
+      font-size: 2em;	
+  }
+  
+  legend {
+      font-weight: 500;
+      padding-top: 1em;
+      border-top: 3px solid darkcyan;
+      margin-bottom: 2em;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  legend {
+      width: 100%;
+  }
+  
+  label {
+      color: black;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 1em;
+  }
+  
+  input,
+  select {
+      margin-bottom: 1.125em;	
+  }
+  
+  input {
+      font-size: 2em;
+      font-weight: 500;
+      padding: 1em;
+      background: cyan;
+      border: 3px solid darkcyan;
+      outline: none;
+  }
+  
+  input:focus {
+      background: white;
+      border-color: darkcyan;
+      transition: border-color .4s, background-color .4s;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+      display: inline-block;
+  }
+  
+  button {
+      color: white;
+      padding: 1em 2em;
+      background: darkcyan;
+      margin: 2em 0 1em;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background: darkcyan;
+  }
+  
+ 
+  
+  .container {
+      margin: auto;
+      max-width: 750px;
+  }
+  
+  .shirt div {
+      float: left;
+      margin-right: 1em;
+  }
+  
+  .interests input {
+      margin-bottom: 0;
+  }
+  
+  .credit-card {
+      margin-top: 2em;
+  }
+  
+  
+  
+  .is-hidden {
+      display: none;
+  }
+  
+  .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  
+  @media (min-width: 0) and (max-width: 700px) {
+      header {
+          padding: 3em 0;
+      }
+      button {
+          width: 100%;
+      }
+  }
+  
+  @media (min-width: 700px) {
+      header {
+          padding: 5em 0 3em;
+      }
+      .col {
+          float: left;
+      }
+      .col + .col {
+          margin-left: 3%;
+      }
+      .col-3 {
+          width: 30%;
+      }
+      .col-6 {
+          width: 60%;
+      }
+  }
